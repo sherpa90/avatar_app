@@ -1,0 +1,8 @@
+<h1>Lista de items</h1>
+
+<% @items.each do |item| %>
+  <h3><%= item.title %></h3>
+  <p><%= item.description %></p>
+  <img src="<%= item.url_image %>" alt="Imagen">
+  <hr>
+<% end %>
