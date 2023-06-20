@@ -3,3 +3,6 @@
 <h3><%= @item.title %></h3>
 <p><%= @item.description %></p>
 <img src="<%= @item.url_image %>" alt="Imagen">
+
+<%= link_to 'Nuevo Item', new_item_path %>
+<%= link_to 'Ver todos los items', items_path %>
